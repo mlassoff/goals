@@ -1,0 +1,21 @@
+#container{
+  margin: 10px;
+}
+
+.goal {
+  border: 1px solid gray;
+  background-color: purple;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.35);
+}
+
+.goal p {
+  font-size: 1.25em;
+}
+
+.btnComplete, .btnDelete{
+  float:right;
+}
