@@ -26,7 +26,6 @@
           <input type="checkbox" id="complete" name="complete" value="1" /><br/>
           <button type="submit">Submit Goal</button>
       </form>
-      <h1>Existing Goals</h1>
       <?php
       require_once 'connect.php';
       $sql = "SELECT * FROM goals";
